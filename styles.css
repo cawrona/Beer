@@ -196,7 +196,7 @@ img.about {
 .svgdownload {
   width: 2rem;
   height: auto;
-  fill: #FFF;
+  /* fill: #FFF; */
 }
 
 
@@ -213,12 +213,13 @@ img.about {
   font-size: 0.9rem;
   margin: 1rem;
   transition: 500ms;
+  fill: white;
 }
 
 .download:hover {
   color: #000;
   background: white;
-  fill: #000;
+  fill: black;
 }
 
 h1.listen {
@@ -304,10 +305,6 @@ hr.listen {
     border-top: solid #666;
 }
 
-h2.audio {
-
-}
-
 .flex {
     display: flex;
     justify-content: center;
@@ -322,6 +319,12 @@ h1.gallery {
   font-weight: 300;
   font-size: 3rem;
   margin: 10%;
+}
+
+.huber {
+  font-family: 'open sans';
+  font-weight: 300;
+  margin: 1rem;
 }
 
 img.logo {
@@ -517,6 +520,11 @@ li {
 
 
 li:hover {
+  transform: translateX(5px);
+  transition: 300ms ease;
+}
+
+a.navlink:hover {
   transform: translateX(5px);
   transition: 300ms ease;
 }

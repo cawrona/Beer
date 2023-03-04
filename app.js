@@ -5,8 +5,16 @@ year.textContent = new Date().getFullYear();
 let menu = document.getElementById("nav-icon4");
 let menuList = document.getElementById("menu");
 
+// let download = document.getElementsByClassName('svgdownload');
+// let downloadbox = document.getElementsByClassName('download');
 
 
+
+// console.log(downloadbox)
+
+// download.forEach((svg) => {
+  
+// })
 
 menu.addEventListener('click', () => {
   menu.classList.toggle('open');
