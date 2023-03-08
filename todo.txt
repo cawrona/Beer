@@ -1,0 +1,4 @@
+- Instagram and Facebook
+- Waiting on Orchestra, Conductor, Pianist and updated DE bio.
+- Fix Contact Section
+- H1 in Navbar 
